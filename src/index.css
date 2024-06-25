@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "Sora";
+    src: local("Sora"), url("./Sora-Medium.ttf");
+  }
+  @font-face {
+    font-family: "Krona";
+    src: local("Krona"), url("./KronaOne-Regular.ttf");
+  }
+}
+
+:root {
+  font-family: "Sora", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-main {
+  background-image: url("./assets/images/bg.png");
+  background-size: cover;
+}
+.bg-landing {
+  background-image: url("./assets/images/bg-landing.png");
+  background-size: cover;
+}
+
+.bg-hero-landing{
+  background-image: url("./assets/images/hero-landing.svg");
+  background-size: cover;
+}
+.krona {
+  font-family: "Krona", sans-serif !important;
+}
+@media only screen and (max-width: 600px) {
+  .bg-main {
+    background: white;
+  }
+}
+
+/* width */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 4px;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border-radius: 4px;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #625df5;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #625df5;
+}
+
+.ant-tree {
+  background: transparent !important;
+}
+
+.ant-tree-list-holder-inner {
+  align-items: center !important;
+  margin-left: -80px;
+  margin-top: 20px;
+}
