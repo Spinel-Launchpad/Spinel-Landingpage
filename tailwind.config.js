@@ -280,7 +280,7 @@ export default {
       backgroundImage: {
         header: "url('/images/header.png')",
         "dark-blue": "linear-gradient(99.02deg, #16224F -0.81%, #0F1C4B 107.65%)",
-        banner: "url('/src/assets/images/bg-banner.svg')",
+        banner: "url('/src/assets/images/bg-banner.png')",
         "title-ecosystem": "linear-gradient(91deg, #3D00A6 43.96%, #0C0020 82.32%);",
         "spinel-universe": "url('/src/assets/images/bg-spinel-universe.png')",
         "partners":" linear-gradient(270deg, #FFF -2.3%, #E1D3FF 119.56%)",

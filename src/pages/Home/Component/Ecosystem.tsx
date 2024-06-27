@@ -1,4 +1,3 @@
-import { Carousel, CarouselProps } from "antd";
 import { DataEcosystem, IDataEcosystem } from "@/constants/dataEcosystem";
 import { useRef } from "react";
 import NextIcon from "@assets/images/next-icon.svg";
