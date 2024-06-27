@@ -1,15 +1,12 @@
-import { useNavigate } from "react-router-dom";
-import Banner from "./Componnet/Banner";
-import Ecosystem from "./Componnet/Ecosystem";
-import SpinelUniverse from "./Componnet/SpinelUniverse";
-import Question from "./Componnet/Question";
-import OurTeam from "./Componnet/OurTeam";
-import Partners from "./Componnet/Partners";
-import Feature from "./Componnet/Feature";
-// import { Button } from "@headlessui/react";
+import Banner from "./Component/Banner";
+import Ecosystem from "./Component/Ecosystem";
+import SpinelUniverse from "./Component/SpinelUniverse";
+import Question from "./Component/Question";
+import OurTeam from "./Component/OurTeam";
+import Partners from "./Component/Partners";
+import Feature from "./Component/Feature";
 
 const Home = () => {
-  const navigate = useNavigate();
 
   return (
     <div>

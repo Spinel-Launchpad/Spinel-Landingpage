@@ -1,4 +1,3 @@
-import bgSpinelUniverse from "@assets/images/bg-spinel-universe.png";
 
 const SpinelUniverse = () => {
   return (
