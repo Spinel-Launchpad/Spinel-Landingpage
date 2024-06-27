@@ -2,18 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
   @font-face {
-    font-family: "Sora";
-    src: local("Sora"), url("./Sora-Medium.ttf");
-  }
-  @font-face {
-    font-family: "Krona";
-    src: local("Krona"), url("./KronaOne-Regular.ttf");
+    font-family: "Cabinet Grotesk";
+    src: local("Cabinet Grotesk"), url("./CabinetGrotesk-Variable.ttf");
   }
 }
-
 :root {
-  font-family: "Sora", sans-serif;
+  font-family: "Cabinet Grotesk", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -22,7 +22,34 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.gradient-text {
+  background: linear-gradient(92deg, #5D57FF 23.56%, #120037 75.8%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Cabinet Grotesk";
+  /* font-size: 60px; */
+  font-style: normal;
+  /* font-weight: 800;   */
+  /* line-height: 68px; */
+  text-transform: uppercase;
+}
+.collapse-question{
+  border: none;
+}
+.collapse-question .ant-collapse-item{
+  padding: 32px 0px;
+  border-bottom: 1px solid  #222425;
+}
+.collapse-question .ant-collapse-item .ant-collapse-header .ant-collapse-expand-icon{
+  display: none;
+}
+.collapse-question .ant-collapse-item .ant-collapse-content{
+  border: none;
+}
+.ecosystem-carousel .slick-slide{
+       height: 650px;
+}
 .bg-main {
   background-image: url("./assets/images/bg.png");
   background-size: cover;

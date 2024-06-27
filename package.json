@@ -12,6 +12,7 @@
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@tanstack/react-query": "^5.37.1",
+    "@types/react-slick": "^0.23.13",
     "@web3-onboard/core": "^2.21.6",
     "@web3-onboard/injected-wallets": "^2.10.17",
     "@web3modal/wagmi": "^4.2.1",
@@ -27,6 +28,8 @@
     "react-icons": "^5.2.1",
     "react-loading-skeleton": "^3.4.0",
     "react-router-dom": "^6.23.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
     "unplugin-auto-import": "^0.17.6",
     "viem": "^2.10.3",
     "wagmi": "^2.8.6"
