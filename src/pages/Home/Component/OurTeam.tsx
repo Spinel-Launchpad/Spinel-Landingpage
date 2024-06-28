@@ -18,10 +18,10 @@ const OurTeam = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap lg:flex-nowrap space-x-0 md:space-x-8 justify-center space-y-12 lg:space-y-0">
+        <div className="flex flex-wrap lg:flex-nowrap space-x-0 md:space-x-8 justify-center ">
           {dataOurTeam.map((item: IDataOurTeam, _) => {
             return (
-              <div key={item.id} className="flex flex-col items-center justify-center w-full md:w-[45%] lg:w-1/3">
+              <div key={item.id} className={`flex flex-col items-center justify-start w-full md:w-[45%] lg:w-1/3 mt-8 lg:mt-8`}>
                 <img
                   src={item.image}
                   alt={`image ${item.name}`}
@@ -40,16 +40,28 @@ const OurTeam = () => {
                 >
                   {item.name}
                 </h3>
-                <h5 className="text-center text-primary-700 not-italic font-extrabold leading-[24px]">{item.position}</h5>
-                <p
-                  className="text-center text-gray-600 text-[13px] not-italic font-normal leading-[20px] tracking-[-0.13px]"
-                  style={{
-                    fontVariantNumeric: "lining-nums proportional-nums",
-                    fontFeatureSettings: "'ss03' on, 'liga' off",
-                  }}
-                >
-                  {item.description}
-                </p>
+                {item.positions.map((position, index) => {
+                  return (
+                    <h5 key={index} className="text-center text-primary-700 not-italic font-extrabold leading-[24px]">
+                      {position}
+                    </h5>
+                  );
+                })}
+                {item.descriptions.map((description, index) => {
+                  return (
+                    <p
+                      key={index}
+                      className="text-center text-gray-600 text-[13px] not-italic font-normal leading-[20px] tracking-[-0.13px] mb-2"
+                      style={{
+                        fontVariantNumeric: "lining-nums proportional-nums",
+                        fontFeatureSettings: "'ss03' on, 'liga' off",
+                      }}
+                    >
+                      {description}
+                    </p>
+                  );
+                })}
+
                 <div className="flex items-center justify-center mt-4 space-x-4">
                   <a href={item.social.twitter}>
                     <img src={Twitter} alt="icon twitter" />
