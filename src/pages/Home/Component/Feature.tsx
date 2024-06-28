@@ -23,10 +23,12 @@ const Feature = () => {
     slidesToShow: 3,
     speed: 500,
     draggable: true,
-    autoplaySpeed:3000,
-    pauseOnFocus:  true,
-    className: "ecosystem-feature",
     autoplay: true,
+    autoplaySpeed:2500,
+    pauseOnFocus:  false,
+    pauseOnHover: false,
+    className: "ecosystem-feature",
+  
     responsive: [
     //   {
     //     breakpoint: 1024,
