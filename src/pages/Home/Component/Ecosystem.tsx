@@ -2,7 +2,7 @@ import { DataEcosystem, IDataEcosystem } from "@/constants/dataEcosystem";
 import { useRef } from "react";
 import NextIcon from "@assets/images/next-icon.svg";
 import PrevIcon from "@assets/images/prev-icon.svg";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 
 const Ecosystem = () => {
   const sliderRef = useRef<Slider>(null);
@@ -15,7 +15,7 @@ const Ecosystem = () => {
     sliderRef.current?.slickPrev();
   };
 
-  const settingCarousel = {
+  const settingCarousel: Settings = {
     dots: false,
     arrows: false,
     infinite: true,
@@ -23,7 +23,9 @@ const Ecosystem = () => {
     slidesToShow: 3,
     speed: 500,
     draggable: true,
-    effect: "scrollx",
+    autoplay:true,
+    autoplaySpeed:3000,
+    pauseOnFocus:  true,
     className: "ecosystem-carousel ",
     responsive: [
       //   {

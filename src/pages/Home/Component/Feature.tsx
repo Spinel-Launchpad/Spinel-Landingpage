@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import NextIcon from "@assets/images/next-icon.svg";
 import PrevIcon from "@assets/images/prev-icon.svg";
-import Slider from "react-slick";
+import Slider, { Settings } from "react-slick";
 import { IDataFeature, dataFeature } from "@/constants/dataFeature";
 
 const Feature = () => {
@@ -15,7 +15,7 @@ const Feature = () => {
     sliderRef.current?.slickPrev();
   };
 
-  const settingCarousel = {
+  const settingCarousel: Settings = {
     dots: false,
     arrows: false,
     infinite: true,
@@ -23,8 +23,10 @@ const Feature = () => {
     slidesToShow: 3,
     speed: 500,
     draggable: true,
-    effect: "scrollx",
+    autoplaySpeed:3000,
+    pauseOnFocus:  true,
     className: "ecosystem-feature",
+    autoplay: true,
     responsive: [
     //   {
     //     breakpoint: 1024,
