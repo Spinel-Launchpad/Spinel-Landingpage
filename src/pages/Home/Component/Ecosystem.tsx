@@ -25,7 +25,8 @@ const Ecosystem = () => {
     draggable: true,
     autoplay:true,
     autoplaySpeed:3000,
-    pauseOnFocus:  true,
+    pauseOnFocus:  false,
+    pauseOnHover:  false,
     className: "ecosystem-carousel ",
     responsive: [
       //   {
