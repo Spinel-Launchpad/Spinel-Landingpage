@@ -24,7 +24,7 @@ const Feature = () => {
     speed: 500,
     draggable: true,
     autoplay: true,
-    autoplaySpeed:2500,
+    autoplaySpeed:3000,
     pauseOnFocus:  false,
     pauseOnHover: false,
     className: "ecosystem-feature",
