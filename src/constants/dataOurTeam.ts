@@ -26,7 +26,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     ],
     social: {
       twitter: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/benjaminbtran/",
       hoop: "",
     },
   },
@@ -40,7 +40,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     ],
     social: {
       twitter: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/viet-nguyen-654478223/",
       hoop: "",
     },
   },
@@ -55,7 +55,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     ],
     social: {
       twitter: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/kh%C3%A1nh-vinh-ba6354153/",
       hoop: "",
     },
   },

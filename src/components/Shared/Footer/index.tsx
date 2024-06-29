@@ -33,9 +33,9 @@ const Footer = () => {
               <span className="">
                 US: <a href="tel:+17147572607">+1.714.757.2607</a>
               </span>
-              <span>
+              {/* <span>
                 Vietnam: <a href="tel:+84935789789">+84.935.789.789</a>
-              </span>
+              </span> */}
             </p>
           </address>
           {/* <div className="flex items-center justify-between">
