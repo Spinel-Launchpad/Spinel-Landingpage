@@ -50,8 +50,9 @@ export const dataOurTeam: IDataOurTeam[] = [
     name: "KV Nguyen",
     positions: ["Co-Founder/CTO", "Ex-Gemini Singapore"],
     descriptions: [
-      "He is a highly experienced expert in the field of Web3 coordination systems, specialising in the creation and management of DAOs.He used to be the lead software engineer responsible for the wallet transaction system at Gemini Singapore (the third-largest crypto exchange in the U.S.). ",
-      "He is also a technology advisory expert and technology solutions architect for Web3 projects, with 05 years of blockchain system security experience.",
+      // "He used to be the lead software engineer responsible for the wallet transaction system at Gemini Singapore (the third-largest crypto exchange in the U.S.). ",
+      // "He is also a technology advisory expert and technology solutions architect for Web3 projects, with 05 years of blockchain system security experience.",
+    "He used to be the lead software engineer responsible for the wallet transaction system at Gemini Singapore (the third-largest crypto exchange in the U.S.). He has also contributed to several DeFi projects, one of which has a total value locked (TVL) of up to $180 million on Solana"
     ],
     social: {
       twitter: "",
