@@ -34,7 +34,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     id: 2,
     image: Team2,
     name: "Jee Nguyen",
-    positions: ["CEO/Founder", "CEO Sofin Network"],
+    positions: ["Founder/CEO", "CEO Sofin Network"],
     descriptions: [
       "He has over 10 years of experience in IT, entertainment, and over 8 years of experience in blockchain/cryptocurrency development, financial technology, and Web3 crypto, from ideation to market launch.",
     ],
