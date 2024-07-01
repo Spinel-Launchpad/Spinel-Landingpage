@@ -19,7 +19,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     id: 1,
     image: Team1,
     name: "Benjamin Tran",
-    positions: ["CFO", "Chairman/CEO Bitech Technologies"],
+    positions: ["Strategic Financial Advisor", "Chairman/CEO Bitech Technologies"],
     descriptions: [
       "Prior to founding United System Capital, he served as president of an Asia-based joint venture with Brean Murray Carret & Co., a New York-based investment bank that has raised over $4B.",
       "Currently, he is Chairman & CEO at Bitech Technologies",
