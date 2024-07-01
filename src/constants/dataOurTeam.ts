@@ -19,7 +19,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     id: 1,
     image: Team1,
     name: "Benjamin Tran",
-    positions: ["CFO"],
+    positions: ["CFO", "Chairman/CEO Bitech Technologies"],
     descriptions: [
       "Prior to founding United System Capital, he served as president of an Asia-based joint venture with Brean Murray Carret & Co., a New York-based investment bank that has raised over $4B.",
       "Currently, he is Chairman & CEO at Bitech Technologies",
@@ -34,7 +34,7 @@ export const dataOurTeam: IDataOurTeam[] = [
     id: 2,
     image: Team2,
     name: "Jee Nguyen",
-    positions: ["CEO/Founder Sofin Network"],
+    positions: ["CEO/Founder", "CEO Sofin Network"],
     descriptions: [
       "He has over 10 years of experience in IT, entertainment, and over 8 years of experience in blockchain/cryptocurrency development, financial technology, and Web3 crypto, from ideation to market launch.",
     ],
